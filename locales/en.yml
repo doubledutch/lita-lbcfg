@@ -1,0 +1,20 @@
+en:
+  lita:
+    handlers:
+      lbcfg:
+        general:
+          private_message: "I'm a huge fan of visibility around infrastructure changes. Let's do this in a public channel! :)"
+          missing_region: "Region '%{region}' does not exist in the config"
+          missing_env: "Environment '%{env}' does not exist in the config for %{region}"
+          missing_balancer: "Balancer '%{balancer}' does not exist in the config for %{region}.%{env}"
+          balancer_not_arr: "Balancer value in the config is not an Array"
+          update_done: "Finished updating the %{balancer} load balancer"
+        status:
+          no_details: "No details were returned for %{region}.%{env}.%{balancer} load balancer"
+        enable:
+          starting_update: "Enabling %{node} within the %{region}.%{env}.%{balancer} balancer..."
+        drain:
+          starting_update: "Draining %{node} within the %{region}.%{env}.%{balancer} balancer..."
+        router:
+          invalid_action: "%{action} is not a valid action, please use 'drain' or 'enable'"
+        not_found: "The command did not match any known routes, please try again. ('%{body}')"
