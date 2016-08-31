@@ -13,7 +13,6 @@
 # limitations under the License.
 
 require 'lita-lbcfg'
-require 'dd_spacecadet'
 require 'lita/rspec'
 
 # A compatibility mode is provided for older plugins upgrading from Lita 3. Since this plugin

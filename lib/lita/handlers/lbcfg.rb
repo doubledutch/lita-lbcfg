@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-require 'dd_spacecadet/error'
+require 'dd_spacecadet'
 require 'lita-lbcfg/loader'
 
 module Lita
